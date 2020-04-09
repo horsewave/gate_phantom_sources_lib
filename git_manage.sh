@@ -32,13 +32,13 @@ git add .
 #git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 ####-----------------------3: push it to the github--------------------
- # git remote add origin https://github.com/horsewave/gate_szpet.git
+ git remote add origin https://github.com/horsewave/gate_phantom_sources_lib.git
 
 ## use the following to spare the enter of username and password
-#  git config credential.helper store
+ git config credential.helper store
  # https://github.com/horsewave/gate_szpet.git
-# # git remote add origin git@github.com:horsewave/root_macros.git
- # git push -u origin master
+# git remote add origin git@github.com:horsewave/root_macros.git
+ git push -u origin master
 
 # git push -u origin temp_patient_81
 # git config --global http.proxy 'socks5://127.0.0.1:1080'
