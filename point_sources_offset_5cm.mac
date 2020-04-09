@@ -1,0 +1,35 @@
+/gate/source/addSource point_source
+# The total activity of the source is set
+/gate/source/point_source/setActivity 0.0000001 Ci
+# The source emits pairs of particles back-to-back
+/gate/source/point_source/setType backtoback
+# The particles emitted by the source are gammas
+/gate/source/point_source/gps/particle gamma
+# The gammas have an energy of 511 keV
+/gate/source/point_source/gps/energytype Mono
+/gate/source/point_source/gps/monoenergy 0.511 MeV
+# The source is a full sphere with radius 0.1 mm,
+# located at the centre of the FOV
+/gate/source/point_source/gps/type Volume
+/gate/source/point_source/gps/shape Sphere
+/gate/source/point_source/gps/radius 0.1 mm
+/gate/source/point_source/gps/centre 5. 0. 0. cm
+# The angular distribution of emission angles is isotropic
+/gate/source/point_source/gps/angtype iso
+
+# The parameters below mean that the source emits
+# at all angles along the z axis
+#/gate/source/point_source/gps/mintheta 0. deg
+#/gate/source/point_source/gps/maxtheta 180. deg
+# Uncomment the parameters below if you want the source
+# to emit in an XY (transverse) plane
+#/gate/source/point_source/gps/mintheta 90. deg
+#/gate/source/point_source/gps/maxtheta 90. deg
+# The parameters below mean that the source emits
+# at all angles in the transverse (XY) directions
+#/gate/source/point_source/gps/minphi 0. deg
+#/gate/source/point_source/gps/maxphi 360. deg
+
+
+/gate/source/point_source/visualize 2000 red 3
+/gate/source/list

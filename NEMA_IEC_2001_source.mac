@@ -1,0 +1,219 @@
+/gate/source/addSource   background
+/gate/source/background/setActivity  0.000923656 Ci 
+/gate/source/background/gps/particle  e+
+/gate/source/background/setForcedUnstableFlag  true
+/gate/source/background/setForcedHalfLife 6586.2 s
+/gate/source/background/gps/energytype Fluor18
+/gate/source/background/gps/type   Volume
+/gate/source/background/gps/shape  Cylinder
+/gate/source/background/gps/radius 14.7 cm
+/gate/source/background/gps/halfz  10.7 cm
+/gate/source/background/gps/angtype  iso
+/gate/source/background/gps/centre  0.0 0.0 0.0 cm
+/gate/source/background/gps/Forbid cold_backgroud 
+/gate/source/background/gps/Forbid outershell4
+/gate/source/background/gps/Forbid IBoxInterior
+/gate/source/background/gps/Forbid outershell2
+/gate/source/background/gps/Forbid LLinterior
+/gate/source/background/gps/Forbid outershell3
+/gate/source/background/gps/Forbid LRinterior
+/gate/source/background/gps/Forbid fill28
+/gate/source/background/gps/Forbid fill28in
+/gate/source/background/gps/Forbid sphere28
+/gate/source/background/gps/Forbid sphere28in
+/gate/source/background/gps/Forbid fill22
+/gate/source/background/gps/Forbid fill22in
+/gate/source/background/gps/Forbid sphere22
+/gate/source/background/gps/Forbid sphere22in
+/gate/source/background/gps/Forbid centercyl
+/gate/source/background/gps/Forbid centercylin
+/gate/source/background/gps/Forbid fill10
+/gate/source/background/gps/Forbid fill10in
+/gate/source/background/gps/Forbid sphere10
+/gate/source/background/gps/Forbid sphere10in
+/gate/source/background/gps/Forbid fill13
+/gate/source/background/gps/Forbid fill13in
+/gate/source/background/gps/Forbid sphere13
+/gate/source/background/gps/Forbid sphere13in
+/gate/source/background/gps/Forbid fill17
+/gate/source/background/gps/Forbid fill17in
+/gate/source/background/gps/Forbid sphere17
+/gate/source/background/gps/Forbid sphere17in
+/gate/source/background/gps/Forbid fill37
+/gate/source/background/gps/Forbid fill37in
+/gate/source/background/gps/Forbid sphere37
+/gate/source/background/gps/Forbid sphere37in
+#/gate/source/background/dump 1
+/gate/source/background/visualize 2000 yellow 3
+/gate/source/list
+
+/gate/source/addSource   LCylinderSource
+/gate/source/LCylinderSource/setActivity    0.000139513 Ci
+/gate/source/LCylinderSource/gps/particle  e+
+/gate/source/LCylinderSource/setForcedUnstableFlag  true
+/gate/source/LCylinderSource/setForcedHalfLife 6586.2 s
+/gate/source/LCylinderSource/gps/energytype Fluor18
+/gate/source/LCylinderSource/gps/type   Volume
+/gate/source/LCylinderSource/gps/shape  Cylinder
+/gate/source/LCylinderSource/gps/radius 7.7 cm
+/gate/source/LCylinderSource/gps/halfz  10.7 cm
+/gate/source/LCylinderSource/gps/angtype  iso
+/gate/source/LCylinderSource/gps/centre  7.0 0.0 0.0 cm
+/gate/source/LCylinderSource/gps/Forbid upperinterior
+/gate/source/LCylinderSource/gps/Forbid centercyl
+/gate/source/LCylinderSource/gps/Forbid centercylin
+/gate/source/LCylinderSource/gps/Forbid fill37
+/gate/source/LCylinderSource/gps/Forbid fill37in
+/gate/source/LCylinderSource/gps/Forbid sphere37
+/gate/source/LCylinderSource/gps/Forbid sphere37in
+/gate/source/LCylinderSource/gps/Forbid outershell4
+/gate/source/LCylinderSource/gps/Forbid IBoxInterior
+/gate/source/LCylinderSource/gps/Forbid cold_backgroud
+/gate/source/LCylinderSource/gps/Forbid fill28
+/gate/source/LCylinderSource/gps/Forbid fill28in
+/gate/source/LCylinderSource/gps/Forbid sphere28
+/gate/source/LCylinderSource/gps/Forbid sphere28in
+#/gate/source/LCylinderSource/dump 1
+/gate/source/LCylinderSource/visualize 2000 yellow 3
+/gate/source/list
+
+/gate/source/addSource   RCylinderSource
+/gate/source/RCylinderSource/setActivity    0.000139513 Ci
+/gate/source/RCylinderSource/gps/particle  e+
+/gate/source/RCylinderSource/setForcedUnstableFlag  true
+/gate/source/RCylinderSource/setForcedHalfLife 6586.2 s
+/gate/source/RCylinderSource/gps/energytype Fluor18
+/gate/source/RCylinderSource/gps/type   Volume
+/gate/source/RCylinderSource/gps/shape  Cylinder
+/gate/source/RCylinderSource/gps/radius 7.7. cm
+/gate/source/RCylinderSource/gps/halfz  10.7 cm
+/gate/source/RCylinderSource/gps/angtype  iso
+/gate/source/RCylinderSource/gps/centre  -7.0 0.0 0.0 cm
+/gate/source/RCylinderSource/gps/Forbid upperinterior
+/gate/source/RCylinderSource/gps/Forbid centercyl
+/gate/source/RCylinderSource/gps/Forbid centercylin
+/gate/source/RCylinderSource/gps/Forbid fill17
+/gate/source/RCylinderSource/gps/Forbid fill17in
+/gate/source/RCylinderSource/gps/Forbid sphere17
+/gate/source/RCylinderSource/gps/Forbid sphere17in
+/gate/source/RCylinderSource/gps/Forbid outershell4
+/gate/source/RCylinderSource/gps/Forbid IBoxInterior
+/gate/source/RCylinderSource/gps/Forbid cold_backgroud
+/gate/source/RCylinderSource/gps/Forbid fill22
+/gate/source/RCylinderSource/gps/Forbid fill22in
+/gate/source/RCylinderSource/gps/Forbid sphere22
+/gate/source/RCylinderSource/gps/Forbid sphere22in
+#/gate/source/RCylinderSource/dump 1
+/gate/source/RCylinderSource/visualize 2000 yellow 3
+/gate/source/list
+
+/gate/source/addSource   boxsource
+/gate/source/boxsource/setActivity  0.000310095 Ci
+/gate/source/boxsource/gps/particle  e+
+/gate/source/boxsource/setForcedUnstableFlag  true
+/gate/source/boxsource/setForcedHalfLife 6586.2 s
+/gate/source/boxsource/gps/energytype Fluor18
+/gate/source/boxsource/gps/type  Volume
+/gate/source/boxsource/gps/shape  Para
+/gate/source/boxsource/gps/halfx  7.  cm
+/gate/source/boxsource/gps/halfy  3.85   cm
+/gate/source/boxsource/gps/halfz  10.7   cm
+/gate/source/boxsource/gps/paralp 0.
+/gate/source/boxsource/gps/parthe 0.
+/gate/source/boxsource/gps/parphi 0.
+/gate/source/boxsource/gps/angtype  iso
+/gate/source/boxsource/gps/centre  0.0 -3.85 0.0 cm
+/gate/source/boxsource/gps/Forbid fill28
+/gate/source/boxsource/gps/Forbid fill28in
+/gate/source/boxsource/gps/Forbid sphere28
+/gate/source/boxsource/gps/Forbid sphere28in
+/gate/source/boxsource/gps/Forbid fill22
+/gate/source/boxsource/gps/Forbid fill22in
+/gate/source/boxsource/gps/Forbid sphere22
+/gate/source/boxsource/gps/Forbid sphere22in
+/gate/source/boxsource/visualize 2000 yellow 3
+/gate/source/list
+
+/gate/source/addSource   sphere10
+/gate/source/sphere10/setActivity    0.0000005864 Ci
+/gate/source/sphere10/gps/particle  e+
+/gate/source/sphere10/setForcedUnstableFlag  true
+/gate/source/sphere10/setForcedHalfLife 6586.2 s
+/gate/source/sphere10/gps/energytype Fluor18
+/gate/source/sphere10/gps/type   Volume
+/gate/source/sphere10/gps/shape  Sphere
+/gate/source/sphere10/gps/radius 0.5 cm
+/gate/source/sphere10/gps/angtype  iso
+/gate/source/sphere10/gps/centre  2.86 8.45367 3.7 cm
+/gate/source/sphere10/visualize 2000 red 3
+/gate/source/list
+
+/gate/source/addSource   sphere13
+/gate/source/sphere13/setActivity    0.000001288 Ci 
+/gate/source/sphere13/gps/particle  e+
+/gate/source/sphere13/setForcedUnstableFlag  true
+/gate/source/sphere13/setForcedHalfLife 6586.2 s
+/gate/source/sphere13/gps/energytype Fluor18
+/gate/source/sphere13/gps/type   Volume
+/gate/source/sphere13/gps/shape  Sphere
+/gate/source/sphere13/gps/radius 0.65 cm
+/gate/source/sphere13/gps/angtype  iso
+/gate/source/sphere13/gps/centre  -2.86 8.45367 3.7 cm
+/gate/source/sphere13/visualize 2000 red 3
+/gate/source/list
+
+/gate/source/addSource   sphere17
+/gate/source/sphere17/setActivity    0.000002881 Ci
+/gate/source/sphere17/gps/particle  e+
+/gate/source/sphere17/setForcedUnstableFlag  true
+/gate/source/sphere17/setForcedHalfLife 6586.2 s
+/gate/source/sphere17/gps/energytype Fluor18
+/gate/source/sphere17/gps/type   Volume
+/gate/source/sphere17/gps/shape  Sphere
+/gate/source/sphere17/gps/radius 0.85 cm
+/gate/source/sphere17/gps/angtype  iso
+/gate/source/sphere17/gps/centre  -5.72 3.5 3.7 cm
+/gate/source/sphere17/visualize 2000 red 3
+/gate/source/list
+
+/gate/source/addSource   sphere37
+/gate/source/sphere37/setActivity    0 Ci
+/gate/source/sphere37/gps/particle  e+
+/gate/source/sphere37/setForcedUnstableFlag  true
+/gate/source/sphere37/setForcedHalfLife 6586.2 s
+/gate/source/sphere37/gps/energytype Fluor18
+/gate/source/sphere37/gps/type   Volume
+/gate/source/sphere37/gps/shape  Sphere
+/gate/source/sphere37/gps/radius 1.85 cm
+/gate/source/sphere37/gps/angtype  iso
+/gate/source/sphere37/gps/centre  5.72 3.5 3.7 cm
+/gate/source/sphere37/visualize 2000 red 3
+/gate/source/list
+
+/gate/source/addSource   sphere22
+/gate/source/sphere22/setActivity    0.000006244 Ci
+/gate/source/sphere22/gps/particle  e+
+/gate/source/sphere22/setForcedUnstableFlag  true
+/gate/source/sphere22/setForcedHalfLife 6586.2 s
+/gate/source/sphere22/gps/energytype Fluor18
+/gate/source/sphere22/gps/type   Volume
+/gate/source/sphere22/gps/shape  Sphere
+/gate/source/sphere22/gps/radius 1.1 cm
+/gate/source/sphere22/gps/angtype  iso
+/gate/source/sphere22/gps/centre  -2.86 -1.45366 3.7 cm
+/gate/source/sphere22/visualize 2000 red 3
+/gate/source/list
+
+/gate/source/addSource   sphere28
+/gate/source/sphere28/setActivity    0 Ci
+/gate/source/sphere28/gps/particle  e+
+/gate/source/sphere28/setForcedUnstableFlag  true
+/gate/source/sphere28/setForcedHalfLife 6586.2 s
+/gate/source/sphere28/gps/energytype Fluor18
+/gate/source/sphere28/gps/type   Volume
+/gate/source/sphere28/gps/shape  Sphere
+/gate/source/sphere28/gps/radius 1.4 cm
+/gate/source/sphere28/gps/angtype  iso
+/gate/source/sphere28/gps/centre  2.86 -1.45366 3.7 cm
+/gate/source/sphere28/visualize 2000 red 3
+/gate/source/list

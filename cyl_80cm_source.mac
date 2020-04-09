@@ -1,0 +1,31 @@
+######################
+#Description:  normalization phantom: cylindrical source with the radius of 43.70cm 
+
+#Editor:Bo Ma
+#date:2020-03-31
+#Email:mabo@ihep.ac.cn
+#Tel:010-88235869
+#Cell:15210606357
+
+# Version:v1.0
+######################
+
+
+/gate/source/addSource   background
+/gate/source/background/setActivity   144799 becquerel
+/gate/source/background/gps/particle  gamma
+/gate/source/background/gps/energytype Mono
+/gate/source/background/setType backtoback
+/gate/source/background/gps/monoenergy 0.511 MeV
+/gate/source/background/gps/type   Volume
+/gate/source/background/gps/shape  Cylinder
+/gate/source/background/gps/radius 43.0 cm
+/gate/source/background/gps/halfz  10.7 cm
+/gate/source/background/gps/angtype  iso
+/gate/source/background/gps/centre  0.0 0.0 0.0 cm
+
+#/gate/source/background/dump 1
+/gate/source/background/visualize 2000 yellow 3
+/gate/source/list
+
+
