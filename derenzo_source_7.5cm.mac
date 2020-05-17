@@ -1,0 +1,604 @@
+# ### the outer cylinder dimater is 75mm and
+###the diameter of the wells are: 7.2,6.3,5.4,4.5,3.6,2.7mm.
+
+/gate/source/addSource   derenzo7.2mm0 
+/gate/source/derenzo7.2mm0/setActivity   12960.00 becquerel 
+/gate/source/derenzo7.2mm0/gps/particle  gamma 
+/gate/source/derenzo7.2mm0/gps/energytype Mono 
+/gate/source/derenzo7.2mm0/setType backtoback 
+/gate/source/derenzo7.2mm0/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo7.2mm0/gps/type Volume
+/gate/source/derenzo7.2mm0/gps/shape Cylinder 
+/gate/source/derenzo7.2mm0/gps/centre 0.00 -12.47 0.00 mm
+/gate/source/derenzo7.2mm0/gps/radius 3.60 mm
+/gate/source/derenzo7.2mm0/gps/halfz  200.00 mm
+/gate/source/derenzo7.2mm0/gps/angtype  iso 
+/gate/source/derenzo7.2mm0/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo7.2mm1 
+/gate/source/derenzo7.2mm1/setActivity   12960.00 becquerel 
+/gate/source/derenzo7.2mm1/gps/particle  gamma 
+/gate/source/derenzo7.2mm1/gps/energytype Mono 
+/gate/source/derenzo7.2mm1/setType backtoback 
+/gate/source/derenzo7.2mm1/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo7.2mm1/gps/type Volume
+/gate/source/derenzo7.2mm1/gps/shape Cylinder 
+/gate/source/derenzo7.2mm1/gps/centre -7.20 -24.94 0.00 mm
+/gate/source/derenzo7.2mm1/gps/radius 3.60 mm
+/gate/source/derenzo7.2mm1/gps/halfz  200.00 mm
+/gate/source/derenzo7.2mm1/gps/angtype  iso 
+/gate/source/derenzo7.2mm1/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo7.2mm2 
+/gate/source/derenzo7.2mm2/setActivity   12960.00 becquerel 
+/gate/source/derenzo7.2mm2/gps/particle  gamma 
+/gate/source/derenzo7.2mm2/gps/energytype Mono 
+/gate/source/derenzo7.2mm2/setType backtoback 
+/gate/source/derenzo7.2mm2/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo7.2mm2/gps/type Volume
+/gate/source/derenzo7.2mm2/gps/shape Cylinder 
+/gate/source/derenzo7.2mm2/gps/centre 7.20 -24.94 0.00 mm
+/gate/source/derenzo7.2mm2/gps/radius 3.60 mm
+/gate/source/derenzo7.2mm2/gps/halfz  200.00 mm
+/gate/source/derenzo7.2mm2/gps/angtype  iso 
+/gate/source/derenzo7.2mm2/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo6.3mm0 
+/gate/source/derenzo6.3mm0/setActivity   9922.50 becquerel 
+/gate/source/derenzo6.3mm0/gps/particle  gamma 
+/gate/source/derenzo6.3mm0/gps/energytype Mono 
+/gate/source/derenzo6.3mm0/setType backtoback 
+/gate/source/derenzo6.3mm0/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo6.3mm0/gps/type Volume
+/gate/source/derenzo6.3mm0/gps/shape Cylinder 
+/gate/source/derenzo6.3mm0/gps/centre 12.70 -7.33 0.00 mm
+/gate/source/derenzo6.3mm0/gps/radius 3.15 mm
+/gate/source/derenzo6.3mm0/gps/halfz  200.00 mm
+/gate/source/derenzo6.3mm0/gps/angtype  iso 
+/gate/source/derenzo6.3mm0/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo6.3mm1 
+/gate/source/derenzo6.3mm1/setActivity   9922.50 becquerel 
+/gate/source/derenzo6.3mm1/gps/particle  gamma 
+/gate/source/derenzo6.3mm1/gps/energytype Mono 
+/gate/source/derenzo6.3mm1/setType backtoback 
+/gate/source/derenzo6.3mm1/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo6.3mm1/gps/type Volume
+/gate/source/derenzo6.3mm1/gps/shape Cylinder 
+/gate/source/derenzo6.3mm1/gps/centre 19.00 -18.24 0.00 mm
+/gate/source/derenzo6.3mm1/gps/radius 3.15 mm
+/gate/source/derenzo6.3mm1/gps/halfz  200.00 mm
+/gate/source/derenzo6.3mm1/gps/angtype  iso 
+/gate/source/derenzo6.3mm1/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo6.3mm2 
+/gate/source/derenzo6.3mm2/setActivity   9922.50 becquerel 
+/gate/source/derenzo6.3mm2/gps/particle  gamma 
+/gate/source/derenzo6.3mm2/gps/energytype Mono 
+/gate/source/derenzo6.3mm2/setType backtoback 
+/gate/source/derenzo6.3mm2/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo6.3mm2/gps/type Volume
+/gate/source/derenzo6.3mm2/gps/shape Cylinder 
+/gate/source/derenzo6.3mm2/gps/centre 25.30 -7.33 0.00 mm
+/gate/source/derenzo6.3mm2/gps/radius 3.15 mm
+/gate/source/derenzo6.3mm2/gps/halfz  200.00 mm
+/gate/source/derenzo6.3mm2/gps/angtype  iso 
+/gate/source/derenzo6.3mm2/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo5.4mm0 
+/gate/source/derenzo5.4mm0/setActivity   7290.00 becquerel 
+/gate/source/derenzo5.4mm0/gps/particle  gamma 
+/gate/source/derenzo5.4mm0/gps/energytype Mono 
+/gate/source/derenzo5.4mm0/setType backtoback 
+/gate/source/derenzo5.4mm0/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo5.4mm0/gps/type Volume
+/gate/source/derenzo5.4mm0/gps/shape Cylinder 
+/gate/source/derenzo5.4mm0/gps/centre 11.35 6.55 0.00 mm
+/gate/source/derenzo5.4mm0/gps/radius 2.70 mm
+/gate/source/derenzo5.4mm0/gps/halfz  200.00 mm
+/gate/source/derenzo5.4mm0/gps/angtype  iso 
+/gate/source/derenzo5.4mm0/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo5.4mm1 
+/gate/source/derenzo5.4mm1/setActivity   7290.00 becquerel 
+/gate/source/derenzo5.4mm1/gps/particle  gamma 
+/gate/source/derenzo5.4mm1/gps/energytype Mono 
+/gate/source/derenzo5.4mm1/setType backtoback 
+/gate/source/derenzo5.4mm1/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo5.4mm1/gps/type Volume
+/gate/source/derenzo5.4mm1/gps/shape Cylinder 
+/gate/source/derenzo5.4mm1/gps/centre 22.15 6.55 0.00 mm
+/gate/source/derenzo5.4mm1/gps/radius 2.70 mm
+/gate/source/derenzo5.4mm1/gps/halfz  200.00 mm
+/gate/source/derenzo5.4mm1/gps/angtype  iso 
+/gate/source/derenzo5.4mm1/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo5.4mm2 
+/gate/source/derenzo5.4mm2/setActivity   7290.00 becquerel 
+/gate/source/derenzo5.4mm2/gps/particle  gamma 
+/gate/source/derenzo5.4mm2/gps/energytype Mono 
+/gate/source/derenzo5.4mm2/setType backtoback 
+/gate/source/derenzo5.4mm2/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo5.4mm2/gps/type Volume
+/gate/source/derenzo5.4mm2/gps/shape Cylinder 
+/gate/source/derenzo5.4mm2/gps/centre 16.75 15.90 0.00 mm
+/gate/source/derenzo5.4mm2/gps/radius 2.70 mm
+/gate/source/derenzo5.4mm2/gps/halfz  200.00 mm
+/gate/source/derenzo5.4mm2/gps/angtype  iso 
+/gate/source/derenzo5.4mm2/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo4.5mm0 
+/gate/source/derenzo4.5mm0/setActivity   5062.50 becquerel 
+/gate/source/derenzo4.5mm0/gps/particle  gamma 
+/gate/source/derenzo4.5mm0/gps/energytype Mono 
+/gate/source/derenzo4.5mm0/setType backtoback 
+/gate/source/derenzo4.5mm0/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo4.5mm0/gps/type Volume
+/gate/source/derenzo4.5mm0/gps/shape Cylinder 
+/gate/source/derenzo4.5mm0/gps/centre 0.00 11.54 0.00 mm
+/gate/source/derenzo4.5mm0/gps/radius 2.25 mm
+/gate/source/derenzo4.5mm0/gps/halfz  200.00 mm
+/gate/source/derenzo4.5mm0/gps/angtype  iso 
+/gate/source/derenzo4.5mm0/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo4.5mm1 
+/gate/source/derenzo4.5mm1/setActivity   5062.50 becquerel 
+/gate/source/derenzo4.5mm1/gps/particle  gamma 
+/gate/source/derenzo4.5mm1/gps/energytype Mono 
+/gate/source/derenzo4.5mm1/setType backtoback 
+/gate/source/derenzo4.5mm1/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo4.5mm1/gps/type Volume
+/gate/source/derenzo4.5mm1/gps/shape Cylinder 
+/gate/source/derenzo4.5mm1/gps/centre 4.50 19.34 0.00 mm
+/gate/source/derenzo4.5mm1/gps/radius 2.25 mm
+/gate/source/derenzo4.5mm1/gps/halfz  200.00 mm
+/gate/source/derenzo4.5mm1/gps/angtype  iso 
+/gate/source/derenzo4.5mm1/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo4.5mm2 
+/gate/source/derenzo4.5mm2/setActivity   5062.50 becquerel 
+/gate/source/derenzo4.5mm2/gps/particle  gamma 
+/gate/source/derenzo4.5mm2/gps/energytype Mono 
+/gate/source/derenzo4.5mm2/setType backtoback 
+/gate/source/derenzo4.5mm2/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo4.5mm2/gps/type Volume
+/gate/source/derenzo4.5mm2/gps/shape Cylinder 
+/gate/source/derenzo4.5mm2/gps/centre -4.50 19.34 0.00 mm
+/gate/source/derenzo4.5mm2/gps/radius 2.25 mm
+/gate/source/derenzo4.5mm2/gps/halfz  200.00 mm
+/gate/source/derenzo4.5mm2/gps/angtype  iso 
+/gate/source/derenzo4.5mm2/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo4.5mm3 
+/gate/source/derenzo4.5mm3/setActivity   5062.50 becquerel 
+/gate/source/derenzo4.5mm3/gps/particle  gamma 
+/gate/source/derenzo4.5mm3/gps/energytype Mono 
+/gate/source/derenzo4.5mm3/setType backtoback 
+/gate/source/derenzo4.5mm3/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo4.5mm3/gps/type Volume
+/gate/source/derenzo4.5mm3/gps/shape Cylinder 
+/gate/source/derenzo4.5mm3/gps/centre 9.00 27.13 0.00 mm
+/gate/source/derenzo4.5mm3/gps/radius 2.25 mm
+/gate/source/derenzo4.5mm3/gps/halfz  200.00 mm
+/gate/source/derenzo4.5mm3/gps/angtype  iso 
+/gate/source/derenzo4.5mm3/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo4.5mm4 
+/gate/source/derenzo4.5mm4/setActivity   5062.50 becquerel 
+/gate/source/derenzo4.5mm4/gps/particle  gamma 
+/gate/source/derenzo4.5mm4/gps/energytype Mono 
+/gate/source/derenzo4.5mm4/setType backtoback 
+/gate/source/derenzo4.5mm4/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo4.5mm4/gps/type Volume
+/gate/source/derenzo4.5mm4/gps/shape Cylinder 
+/gate/source/derenzo4.5mm4/gps/centre 0.00 27.13 0.00 mm
+/gate/source/derenzo4.5mm4/gps/radius 2.25 mm
+/gate/source/derenzo4.5mm4/gps/halfz  200.00 mm
+/gate/source/derenzo4.5mm4/gps/angtype  iso 
+/gate/source/derenzo4.5mm4/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo4.5mm5 
+/gate/source/derenzo4.5mm5/setActivity   5062.50 becquerel 
+/gate/source/derenzo4.5mm5/gps/particle  gamma 
+/gate/source/derenzo4.5mm5/gps/energytype Mono 
+/gate/source/derenzo4.5mm5/setType backtoback 
+/gate/source/derenzo4.5mm5/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo4.5mm5/gps/type Volume
+/gate/source/derenzo4.5mm5/gps/shape Cylinder 
+/gate/source/derenzo4.5mm5/gps/centre -9.00 27.13 0.00 mm
+/gate/source/derenzo4.5mm5/gps/radius 2.25 mm
+/gate/source/derenzo4.5mm5/gps/halfz  200.00 mm
+/gate/source/derenzo4.5mm5/gps/angtype  iso 
+/gate/source/derenzo4.5mm5/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo3.6mm0 
+/gate/source/derenzo3.6mm0/setActivity   3240.00 becquerel 
+/gate/source/derenzo3.6mm0/gps/particle  gamma 
+/gate/source/derenzo3.6mm0/gps/energytype Mono 
+/gate/source/derenzo3.6mm0/setType backtoback 
+/gate/source/derenzo3.6mm0/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo3.6mm0/gps/type Volume
+/gate/source/derenzo3.6mm0/gps/shape Cylinder 
+/gate/source/derenzo3.6mm0/gps/centre -8.65 4.99 0.00 mm
+/gate/source/derenzo3.6mm0/gps/radius 1.80 mm
+/gate/source/derenzo3.6mm0/gps/halfz  200.00 mm
+/gate/source/derenzo3.6mm0/gps/angtype  iso 
+/gate/source/derenzo3.6mm0/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo3.6mm1 
+/gate/source/derenzo3.6mm1/setActivity   3240.00 becquerel 
+/gate/source/derenzo3.6mm1/gps/particle  gamma 
+/gate/source/derenzo3.6mm1/gps/energytype Mono 
+/gate/source/derenzo3.6mm1/setType backtoback 
+/gate/source/derenzo3.6mm1/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo3.6mm1/gps/type Volume
+/gate/source/derenzo3.6mm1/gps/shape Cylinder 
+/gate/source/derenzo3.6mm1/gps/centre -12.25 11.23 0.00 mm
+/gate/source/derenzo3.6mm1/gps/radius 1.80 mm
+/gate/source/derenzo3.6mm1/gps/halfz  200.00 mm
+/gate/source/derenzo3.6mm1/gps/angtype  iso 
+/gate/source/derenzo3.6mm1/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo3.6mm2 
+/gate/source/derenzo3.6mm2/setActivity   3240.00 becquerel 
+/gate/source/derenzo3.6mm2/gps/particle  gamma 
+/gate/source/derenzo3.6mm2/gps/energytype Mono 
+/gate/source/derenzo3.6mm2/setType backtoback 
+/gate/source/derenzo3.6mm2/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo3.6mm2/gps/type Volume
+/gate/source/derenzo3.6mm2/gps/shape Cylinder 
+/gate/source/derenzo3.6mm2/gps/centre -15.85 4.99 0.00 mm
+/gate/source/derenzo3.6mm2/gps/radius 1.80 mm
+/gate/source/derenzo3.6mm2/gps/halfz  200.00 mm
+/gate/source/derenzo3.6mm2/gps/angtype  iso 
+/gate/source/derenzo3.6mm2/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo3.6mm3 
+/gate/source/derenzo3.6mm3/setActivity   3240.00 becquerel 
+/gate/source/derenzo3.6mm3/gps/particle  gamma 
+/gate/source/derenzo3.6mm3/gps/energytype Mono 
+/gate/source/derenzo3.6mm3/setType backtoback 
+/gate/source/derenzo3.6mm3/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo3.6mm3/gps/type Volume
+/gate/source/derenzo3.6mm3/gps/shape Cylinder 
+/gate/source/derenzo3.6mm3/gps/centre -15.85 17.46 0.00 mm
+/gate/source/derenzo3.6mm3/gps/radius 1.80 mm
+/gate/source/derenzo3.6mm3/gps/halfz  200.00 mm
+/gate/source/derenzo3.6mm3/gps/angtype  iso 
+/gate/source/derenzo3.6mm3/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo3.6mm4 
+/gate/source/derenzo3.6mm4/setActivity   3240.00 becquerel 
+/gate/source/derenzo3.6mm4/gps/particle  gamma 
+/gate/source/derenzo3.6mm4/gps/energytype Mono 
+/gate/source/derenzo3.6mm4/setType backtoback 
+/gate/source/derenzo3.6mm4/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo3.6mm4/gps/type Volume
+/gate/source/derenzo3.6mm4/gps/shape Cylinder 
+/gate/source/derenzo3.6mm4/gps/centre -19.45 11.23 0.00 mm
+/gate/source/derenzo3.6mm4/gps/radius 1.80 mm
+/gate/source/derenzo3.6mm4/gps/halfz  200.00 mm
+/gate/source/derenzo3.6mm4/gps/angtype  iso 
+/gate/source/derenzo3.6mm4/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo3.6mm5 
+/gate/source/derenzo3.6mm5/setActivity   3240.00 becquerel 
+/gate/source/derenzo3.6mm5/gps/particle  gamma 
+/gate/source/derenzo3.6mm5/gps/energytype Mono 
+/gate/source/derenzo3.6mm5/setType backtoback 
+/gate/source/derenzo3.6mm5/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo3.6mm5/gps/type Volume
+/gate/source/derenzo3.6mm5/gps/shape Cylinder 
+/gate/source/derenzo3.6mm5/gps/centre -23.05 4.99 0.00 mm
+/gate/source/derenzo3.6mm5/gps/radius 1.80 mm
+/gate/source/derenzo3.6mm5/gps/halfz  200.00 mm
+/gate/source/derenzo3.6mm5/gps/angtype  iso 
+/gate/source/derenzo3.6mm5/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo3.6mm6 
+/gate/source/derenzo3.6mm6/setActivity   3240.00 becquerel 
+/gate/source/derenzo3.6mm6/gps/particle  gamma 
+/gate/source/derenzo3.6mm6/gps/energytype Mono 
+/gate/source/derenzo3.6mm6/setType backtoback 
+/gate/source/derenzo3.6mm6/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo3.6mm6/gps/type Volume
+/gate/source/derenzo3.6mm6/gps/shape Cylinder 
+/gate/source/derenzo3.6mm6/gps/centre -19.45 23.70 0.00 mm
+/gate/source/derenzo3.6mm6/gps/radius 1.80 mm
+/gate/source/derenzo3.6mm6/gps/halfz  200.00 mm
+/gate/source/derenzo3.6mm6/gps/angtype  iso 
+/gate/source/derenzo3.6mm6/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo3.6mm7 
+/gate/source/derenzo3.6mm7/setActivity   3240.00 becquerel 
+/gate/source/derenzo3.6mm7/gps/particle  gamma 
+/gate/source/derenzo3.6mm7/gps/energytype Mono 
+/gate/source/derenzo3.6mm7/setType backtoback 
+/gate/source/derenzo3.6mm7/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo3.6mm7/gps/type Volume
+/gate/source/derenzo3.6mm7/gps/shape Cylinder 
+/gate/source/derenzo3.6mm7/gps/centre -23.05 17.46 0.00 mm
+/gate/source/derenzo3.6mm7/gps/radius 1.80 mm
+/gate/source/derenzo3.6mm7/gps/halfz  200.00 mm
+/gate/source/derenzo3.6mm7/gps/angtype  iso 
+/gate/source/derenzo3.6mm7/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo3.6mm8 
+/gate/source/derenzo3.6mm8/setActivity   3240.00 becquerel 
+/gate/source/derenzo3.6mm8/gps/particle  gamma 
+/gate/source/derenzo3.6mm8/gps/energytype Mono 
+/gate/source/derenzo3.6mm8/setType backtoback 
+/gate/source/derenzo3.6mm8/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo3.6mm8/gps/type Volume
+/gate/source/derenzo3.6mm8/gps/shape Cylinder 
+/gate/source/derenzo3.6mm8/gps/centre -26.65 11.23 0.00 mm
+/gate/source/derenzo3.6mm8/gps/radius 1.80 mm
+/gate/source/derenzo3.6mm8/gps/halfz  200.00 mm
+/gate/source/derenzo3.6mm8/gps/angtype  iso 
+/gate/source/derenzo3.6mm8/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo3.6mm9 
+/gate/source/derenzo3.6mm9/setActivity   3240.00 becquerel 
+/gate/source/derenzo3.6mm9/gps/particle  gamma 
+/gate/source/derenzo3.6mm9/gps/energytype Mono 
+/gate/source/derenzo3.6mm9/setType backtoback 
+/gate/source/derenzo3.6mm9/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo3.6mm9/gps/type Volume
+/gate/source/derenzo3.6mm9/gps/shape Cylinder 
+/gate/source/derenzo3.6mm9/gps/centre -30.25 4.99 0.00 mm
+/gate/source/derenzo3.6mm9/gps/radius 1.80 mm
+/gate/source/derenzo3.6mm9/gps/halfz  200.00 mm
+/gate/source/derenzo3.6mm9/gps/angtype  iso 
+/gate/source/derenzo3.6mm9/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo2.7mm0 
+/gate/source/derenzo2.7mm0/setActivity   1822.50 becquerel 
+/gate/source/derenzo2.7mm0/gps/particle  gamma 
+/gate/source/derenzo2.7mm0/gps/energytype Mono 
+/gate/source/derenzo2.7mm0/setType backtoback 
+/gate/source/derenzo2.7mm0/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo2.7mm0/gps/type Volume
+/gate/source/derenzo2.7mm0/gps/shape Cylinder 
+/gate/source/derenzo2.7mm0/gps/centre -7.30 -4.21 0.00 mm
+/gate/source/derenzo2.7mm0/gps/radius 1.35 mm
+/gate/source/derenzo2.7mm0/gps/halfz  200.00 mm
+/gate/source/derenzo2.7mm0/gps/angtype  iso 
+/gate/source/derenzo2.7mm0/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo2.7mm1 
+/gate/source/derenzo2.7mm1/setActivity   1822.50 becquerel 
+/gate/source/derenzo2.7mm1/gps/particle  gamma 
+/gate/source/derenzo2.7mm1/gps/energytype Mono 
+/gate/source/derenzo2.7mm1/setType backtoback 
+/gate/source/derenzo2.7mm1/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo2.7mm1/gps/type Volume
+/gate/source/derenzo2.7mm1/gps/shape Cylinder 
+/gate/source/derenzo2.7mm1/gps/centre -12.70 -4.21 0.00 mm
+/gate/source/derenzo2.7mm1/gps/radius 1.35 mm
+/gate/source/derenzo2.7mm1/gps/halfz  200.00 mm
+/gate/source/derenzo2.7mm1/gps/angtype  iso 
+/gate/source/derenzo2.7mm1/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo2.7mm2 
+/gate/source/derenzo2.7mm2/setActivity   1822.50 becquerel 
+/gate/source/derenzo2.7mm2/gps/particle  gamma 
+/gate/source/derenzo2.7mm2/gps/energytype Mono 
+/gate/source/derenzo2.7mm2/setType backtoback 
+/gate/source/derenzo2.7mm2/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo2.7mm2/gps/type Volume
+/gate/source/derenzo2.7mm2/gps/shape Cylinder 
+/gate/source/derenzo2.7mm2/gps/centre -10.00 -8.89 0.00 mm
+/gate/source/derenzo2.7mm2/gps/radius 1.35 mm
+/gate/source/derenzo2.7mm2/gps/halfz  200.00 mm
+/gate/source/derenzo2.7mm2/gps/angtype  iso 
+/gate/source/derenzo2.7mm2/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo2.7mm3 
+/gate/source/derenzo2.7mm3/setActivity   1822.50 becquerel 
+/gate/source/derenzo2.7mm3/gps/particle  gamma 
+/gate/source/derenzo2.7mm3/gps/energytype Mono 
+/gate/source/derenzo2.7mm3/setType backtoback 
+/gate/source/derenzo2.7mm3/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo2.7mm3/gps/type Volume
+/gate/source/derenzo2.7mm3/gps/shape Cylinder 
+/gate/source/derenzo2.7mm3/gps/centre -18.10 -4.21 0.00 mm
+/gate/source/derenzo2.7mm3/gps/radius 1.35 mm
+/gate/source/derenzo2.7mm3/gps/halfz  200.00 mm
+/gate/source/derenzo2.7mm3/gps/angtype  iso 
+/gate/source/derenzo2.7mm3/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo2.7mm4 
+/gate/source/derenzo2.7mm4/setActivity   1822.50 becquerel 
+/gate/source/derenzo2.7mm4/gps/particle  gamma 
+/gate/source/derenzo2.7mm4/gps/energytype Mono 
+/gate/source/derenzo2.7mm4/setType backtoback 
+/gate/source/derenzo2.7mm4/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo2.7mm4/gps/type Volume
+/gate/source/derenzo2.7mm4/gps/shape Cylinder 
+/gate/source/derenzo2.7mm4/gps/centre -15.40 -8.89 0.00 mm
+/gate/source/derenzo2.7mm4/gps/radius 1.35 mm
+/gate/source/derenzo2.7mm4/gps/halfz  200.00 mm
+/gate/source/derenzo2.7mm4/gps/angtype  iso 
+/gate/source/derenzo2.7mm4/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo2.7mm5 
+/gate/source/derenzo2.7mm5/setActivity   1822.50 becquerel 
+/gate/source/derenzo2.7mm5/gps/particle  gamma 
+/gate/source/derenzo2.7mm5/gps/energytype Mono 
+/gate/source/derenzo2.7mm5/setType backtoback 
+/gate/source/derenzo2.7mm5/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo2.7mm5/gps/type Volume
+/gate/source/derenzo2.7mm5/gps/shape Cylinder 
+/gate/source/derenzo2.7mm5/gps/centre -12.70 -13.57 0.00 mm
+/gate/source/derenzo2.7mm5/gps/radius 1.35 mm
+/gate/source/derenzo2.7mm5/gps/halfz  200.00 mm
+/gate/source/derenzo2.7mm5/gps/angtype  iso 
+/gate/source/derenzo2.7mm5/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo2.7mm6 
+/gate/source/derenzo2.7mm6/setActivity   1822.50 becquerel 
+/gate/source/derenzo2.7mm6/gps/particle  gamma 
+/gate/source/derenzo2.7mm6/gps/energytype Mono 
+/gate/source/derenzo2.7mm6/setType backtoback 
+/gate/source/derenzo2.7mm6/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo2.7mm6/gps/type Volume
+/gate/source/derenzo2.7mm6/gps/shape Cylinder 
+/gate/source/derenzo2.7mm6/gps/centre -23.50 -4.21 0.00 mm
+/gate/source/derenzo2.7mm6/gps/radius 1.35 mm
+/gate/source/derenzo2.7mm6/gps/halfz  200.00 mm
+/gate/source/derenzo2.7mm6/gps/angtype  iso 
+/gate/source/derenzo2.7mm6/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo2.7mm7 
+/gate/source/derenzo2.7mm7/setActivity   1822.50 becquerel 
+/gate/source/derenzo2.7mm7/gps/particle  gamma 
+/gate/source/derenzo2.7mm7/gps/energytype Mono 
+/gate/source/derenzo2.7mm7/setType backtoback 
+/gate/source/derenzo2.7mm7/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo2.7mm7/gps/type Volume
+/gate/source/derenzo2.7mm7/gps/shape Cylinder 
+/gate/source/derenzo2.7mm7/gps/centre -20.80 -8.89 0.00 mm
+/gate/source/derenzo2.7mm7/gps/radius 1.35 mm
+/gate/source/derenzo2.7mm7/gps/halfz  200.00 mm
+/gate/source/derenzo2.7mm7/gps/angtype  iso 
+/gate/source/derenzo2.7mm7/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo2.7mm8 
+/gate/source/derenzo2.7mm8/setActivity   1822.50 becquerel 
+/gate/source/derenzo2.7mm8/gps/particle  gamma 
+/gate/source/derenzo2.7mm8/gps/energytype Mono 
+/gate/source/derenzo2.7mm8/setType backtoback 
+/gate/source/derenzo2.7mm8/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo2.7mm8/gps/type Volume
+/gate/source/derenzo2.7mm8/gps/shape Cylinder 
+/gate/source/derenzo2.7mm8/gps/centre -18.10 -13.57 0.00 mm
+/gate/source/derenzo2.7mm8/gps/radius 1.35 mm
+/gate/source/derenzo2.7mm8/gps/halfz  200.00 mm
+/gate/source/derenzo2.7mm8/gps/angtype  iso 
+/gate/source/derenzo2.7mm8/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo2.7mm9 
+/gate/source/derenzo2.7mm9/setActivity   1822.50 becquerel 
+/gate/source/derenzo2.7mm9/gps/particle  gamma 
+/gate/source/derenzo2.7mm9/gps/energytype Mono 
+/gate/source/derenzo2.7mm9/setType backtoback 
+/gate/source/derenzo2.7mm9/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo2.7mm9/gps/type Volume
+/gate/source/derenzo2.7mm9/gps/shape Cylinder 
+/gate/source/derenzo2.7mm9/gps/centre -15.40 -18.24 0.00 mm
+/gate/source/derenzo2.7mm9/gps/radius 1.35 mm
+/gate/source/derenzo2.7mm9/gps/halfz  200.00 mm
+/gate/source/derenzo2.7mm9/gps/angtype  iso 
+/gate/source/derenzo2.7mm9/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo2.7mm10 
+/gate/source/derenzo2.7mm10/setActivity   1822.50 becquerel 
+/gate/source/derenzo2.7mm10/gps/particle  gamma 
+/gate/source/derenzo2.7mm10/gps/energytype Mono 
+/gate/source/derenzo2.7mm10/setType backtoback 
+/gate/source/derenzo2.7mm10/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo2.7mm10/gps/type Volume
+/gate/source/derenzo2.7mm10/gps/shape Cylinder 
+/gate/source/derenzo2.7mm10/gps/centre -28.90 -4.21 0.00 mm
+/gate/source/derenzo2.7mm10/gps/radius 1.35 mm
+/gate/source/derenzo2.7mm10/gps/halfz  200.00 mm
+/gate/source/derenzo2.7mm10/gps/angtype  iso 
+/gate/source/derenzo2.7mm10/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo2.7mm11 
+/gate/source/derenzo2.7mm11/setActivity   1822.50 becquerel 
+/gate/source/derenzo2.7mm11/gps/particle  gamma 
+/gate/source/derenzo2.7mm11/gps/energytype Mono 
+/gate/source/derenzo2.7mm11/setType backtoback 
+/gate/source/derenzo2.7mm11/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo2.7mm11/gps/type Volume
+/gate/source/derenzo2.7mm11/gps/shape Cylinder 
+/gate/source/derenzo2.7mm11/gps/centre -26.20 -8.89 0.00 mm
+/gate/source/derenzo2.7mm11/gps/radius 1.35 mm
+/gate/source/derenzo2.7mm11/gps/halfz  200.00 mm
+/gate/source/derenzo2.7mm11/gps/angtype  iso 
+/gate/source/derenzo2.7mm11/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo2.7mm12 
+/gate/source/derenzo2.7mm12/setActivity   1822.50 becquerel 
+/gate/source/derenzo2.7mm12/gps/particle  gamma 
+/gate/source/derenzo2.7mm12/gps/energytype Mono 
+/gate/source/derenzo2.7mm12/setType backtoback 
+/gate/source/derenzo2.7mm12/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo2.7mm12/gps/type Volume
+/gate/source/derenzo2.7mm12/gps/shape Cylinder 
+/gate/source/derenzo2.7mm12/gps/centre -23.50 -13.57 0.00 mm
+/gate/source/derenzo2.7mm12/gps/radius 1.35 mm
+/gate/source/derenzo2.7mm12/gps/halfz  200.00 mm
+/gate/source/derenzo2.7mm12/gps/angtype  iso 
+/gate/source/derenzo2.7mm12/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo2.7mm13 
+/gate/source/derenzo2.7mm13/setActivity   1822.50 becquerel 
+/gate/source/derenzo2.7mm13/gps/particle  gamma 
+/gate/source/derenzo2.7mm13/gps/energytype Mono 
+/gate/source/derenzo2.7mm13/setType backtoback 
+/gate/source/derenzo2.7mm13/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo2.7mm13/gps/type Volume
+/gate/source/derenzo2.7mm13/gps/shape Cylinder 
+/gate/source/derenzo2.7mm13/gps/centre -20.80 -18.24 0.00 mm
+/gate/source/derenzo2.7mm13/gps/radius 1.35 mm
+/gate/source/derenzo2.7mm13/gps/halfz  200.00 mm
+/gate/source/derenzo2.7mm13/gps/angtype  iso 
+/gate/source/derenzo2.7mm13/visualize 2000 red 3 
+/gate/source/list 
+
+/gate/source/addSource   derenzo2.7mm14 
+/gate/source/derenzo2.7mm14/setActivity   1822.50 becquerel 
+/gate/source/derenzo2.7mm14/gps/particle  gamma 
+/gate/source/derenzo2.7mm14/gps/energytype Mono 
+/gate/source/derenzo2.7mm14/setType backtoback 
+/gate/source/derenzo2.7mm14/gps/monoenergy 0.511 MeV 
+/gate/source/derenzo2.7mm14/gps/type Volume
+/gate/source/derenzo2.7mm14/gps/shape Cylinder 
+/gate/source/derenzo2.7mm14/gps/centre -18.10 -22.92 0.00 mm
+/gate/source/derenzo2.7mm14/gps/radius 1.35 mm
+/gate/source/derenzo2.7mm14/gps/halfz  200.00 mm
+/gate/source/derenzo2.7mm14/gps/angtype  iso 
+/gate/source/derenzo2.7mm14/visualize 2000 red 3 
+/gate/source/list 
+
+# the total activity is 180630.00 Bq

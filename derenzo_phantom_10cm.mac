@@ -1,0 +1,56 @@
+#  *********************************************************************
+#  * DISCLAIMER                                                        *
+#  *                                                                   *
+#  * Neither the authors of this software system, nor their employing  *
+#  * institutes, nor the agencies providing financial support for this *
+#  * work make any representation or warranty, express or implied,     *
+#  * regarding this software system or assume any liability for its    *
+#  * use.                                                              *
+#  *                                                                   *
+#  * This code implementation is the intellectual property of the      *
+#  * OpenGATE collaboration.                                           *
+#  * By copying, distributing or modifying the Program (or any work    *
+#  * based on the Program) you indicate your acceptance of this        *
+#  * statement, and all its terms.                                     *
+#  *********************************************************************
+#
+#  The following phantom is Gate representation of the 
+#  NEMA 2-2001 IQ Phantom.  The dimensions of this phantom 
+#  are taken directly from "NEMA NU 2, Chapter 7, 2001".
+
+#---------------
+#Description: NEMA phantom with all the materials setting to vacuum 
+# to eliminate the effects of scaater and attenuation.
+
+#Editor:Bo Ma
+#date:2020/03/30 
+#Email:mabo@ihep.ac.cn
+#Tel:010-88235869
+#Cell:15210606357
+
+#Version:v1.0
+#---------------
+
+#  
+# ### the outer cylinder dimater is 100mm and
+###the diameter of the wells are: 10,8,6,4,2,1mm.
+ 
+#       P H A N T O M   G E O M E T R Y
+/gate/world/daughters/name cyl_phantom
+/gate/world/daughters/insert cylinder
+/gate/cyl_phantom/placement/setTranslation 0.0 0.0 0.0 cm
+/gate/cyl_phantom/geometry/setRmax 5.0 cm
+/gate/cyl_phantom/geometry/setRmin  0.0 cm
+/gate/cyl_phantom/geometry/setHeight 20.0 cm
+/gate/cyl_phantom/geometry/setPhiStart 0. deg
+/gate/cyl_phantom/geometry/setDeltaPhi 360. deg
+/gate/cyl_phantom/setMaterial Vacuum
+/gate/cyl_phantom/vis/forceWireframe
+#/gate/cyl_phantom/vis/forceSolid
+/gate/cyl_phantom/vis/setColor green
+/gate/cyl_phantom/vis/setVisible 1
+
+
+#      A t t a c h   P h a n t o m
+/gate/cyl_phantom/attachPhantomSD
+

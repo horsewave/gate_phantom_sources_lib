@@ -46,7 +46,7 @@
 /gate/cyl_background/setMaterial Vacuum
 /gate/cyl_background/vis/forceWireframe
 #/gate/cyl_background/vis/forceSolid
-/gate/cyl_background/vis/setColor green
+/gate/cyl_background/vis/setColor cyan
 /gate/cyl_background/vis/setVisible 1
 
 
@@ -107,7 +107,7 @@
 /gate/sphere28in/setMaterial Vacuum
 #/gate/sphere28in/vis/forceWireframe
 /gate/sphere28in/vis/forceSolid
-/gate/sphere28in/vis/setColor red
+/gate/sphere28in/vis/setColor green
 
 
 
@@ -121,7 +121,7 @@
 /gate/sphere37in/setMaterial Vacuum
 #/gate/sphere37in/vis/forceWireframe
 /gate/sphere37in/vis/forceSolid
-/gate/sphere37in/vis/setColor red
+/gate/sphere37in/vis/setColor green
 
 
 
